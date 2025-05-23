@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-md fixed-top " style="background-color: darksalmon;">
+        <!-- Brand -->
+        <a class="navbar-brand " href="#" style="margin-left: 3rem;">XXX的个人网页</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse " id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" style="color: antiquewhite;" href="#">个人介绍</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: antiquewhite;" href="#">教育背景</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: antiquewhite;" href="#">旅游日记</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: antiquewhite;" href="#">兴趣爱好</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: antiquewhite;" href="#">联系方式</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- 指示符 -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/1.jpg" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="images/2.jpg" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="images/3.jpg" class="d-block" style="width:100%">
+            </div>
+        </div>
+
+        <!-- 左右切换按钮 -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <main class="container">
+        <div class="row">
+            <aside class="col-sm-3 mt-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/per.jpg" alt="Card image" style="width:100%;padding: 2rem;">
+                    <div class="card-body">
+                        <h4 class="card-title">JXXXX</h4>
+                        <p class="card-text">自我介绍
+                            [1]是每一个职场中人都必然要经历的一件事情，只不过，有的人一年用不上几次，而有的人则一个星期可能需要做N次。众所周知，自我介绍是日常工作中与陌生人建立关系、打开局面的一种非常重要的手段，因此，让自己通过自我介绍
+                            [1]或得到对方的认识甚至认可，一种非常重要的职场技术。</p>
+                        <a href="#" class="btn btn-danger">点赞</a>
+                    </div>
+                </div>
+            </aside>
+            <section class="col-sm-9 mt-3">
+                <div class="card mt-3">
+                    <div class="card-header">教育背景</div>
+                    <div class="card-body">
+                        <div class="list-group list-group-checkable">
+                            <label class="list-group-item py-3" for="listGroupCheckableRadios1">
+                                小学
+                                <span class="d-block small opacity-50">With support text underneath to add more
+                                    detail</span>
+                            </label>
+
+                            <label class="list-group-item py-3" for="listGroupCheckableRadios2">
+                                中学
+                                <span class="d-block small opacity-50">Some other text goes here</span>
+                            </label>
+
+                            <label class="list-group-item py-3" for="listGroupCheckableRadios3">
+                                大专
+                                <span class="d-block small opacity-50">And we end with another snippet of text</span>
+                            </label>
+
+                            <label class="list-group-item py-3" for="listGroupCheckableRadios4">
+                                实习
+                                <span class="d-block small opacity-50">This option is disabled</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-header">旅游日记</div>
+                    <div class="card-body">
+                        <div class="list-group list-group-checkable">
+                            <label class="list-group-item py-3" for="listGroupCheckableRadios1">
+                                上海 2025.4
+                                <span class="d-block small m-3"><img src="images/1.jpg" style="width:50%"></span>
+                            </label>
+
+                            <label class="list-group-item py-3" for="listGroupCheckableRadios2">
+                                重庆
+                                <span class="d-block small m-3"><img src="images/2.jpg" style="width:50%"></span>
+                            </label>
+
+                            <label class="list-group-item py-3" for="listGroupCheckableRadios3">
+                                广州
+                                <span class="d-block small m-3"><img src="images/3.jpg" style="width:50%"></span>
+                            </label>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+ 
+                <div class="card my-3">
+                    <div class="card-header">兴趣爱好</div>
+                    <div class="card-body">
+                        <ul><li>玩游戏</li>
+                        <li>听歌</li>
+                    <li>睡觉</li></ul>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+  <footer class="footer bg-dark text-light text-center  p-5"> 联系方式 ： 123456788； 地址：啊啊啊啊啊</footer>
+    <script src="https://cdn.staticfile.net/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap-5.3.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
